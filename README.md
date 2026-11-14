@@ -1,18 +1,24 @@
-# 💻 Assignment Boilerplate
+# 💻 Twitch Plays Pokémon
 
-A starting point for assignment and exercise repos. It includes submission instructions, editor and Git configuration,
-and a pull request template so every assignment works the same way.
+Starter files for an HTML coding exercise. You will turn plain text about **Twitch Plays
+Pokémon**, the 2014 stream where more than a million people played one game of Pokémon Red
+together through chat, into a well-structured HTML web page and publish it with GitHub Pages.
+
+This page is going to look plain in the browser, and that is fine. There is no CSS in this
+exercise. The point is to practice using HTML to give content structure and meaning.
+Styling comes later in the course.
 
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` and `.idea`
-> folders are setup files that keep assignments consistent. Leave them alone.
+> folders are setup files that keep assignments consistent. Leave them alone. `content.txt`
+> is your starter content.
 
 ## 📋 Assignment Requirements
 
 > [!IMPORTANT]
 > **Start here: [read ASSIGNMENT.md →](.github/ASSIGNMENT.md)**
 
-It has the requirements, grading criteria, and due date. Read it before you start, and check it again before you submit.
+It has the overview, the requirements, the grading criteria, and a final checklist. Read it before you start, and check it again before you submit.
 
 ## ✅ At a Glance
 
@@ -28,11 +34,25 @@ Every assignment follows the same steps. Each guide has screenshots for every st
 
 ## 📂 Where Your Files Go
 
-Create your files in the **root folder** of this repo — the same folder as this README.
-GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404. Group your assets into
-subfolders:
+Your page goes in the **root folder** of this repo, the same folder as this README.
+GitHub Pages publishes from the root, so `index.html` has to live there or your site will 404.
 
-<img src=".github/images/webstorm-project-files.png" alt="The WebStorm Project panel showing index.html in the root folder, with css/style.css, images/photo.jpg, and js/script.js in their own subfolders, all highlighted" width="350">
+You can get started in either of two ways. Pick **one**:
+
+- **Rename the starter file.** Rename `content.txt` to `index.html`, then add your markup
+  around the text that is already there.
+- **Create a new file.** Create a new `index.html` in the root folder, then copy the text
+  from `content.txt` into it as you mark it up. You can leave `content.txt` in the repo.
+
+Either way, when you are finished your root folder should contain:
+
+```
+index.html
+```
+
+> [!WARNING]
+> The file must be named exactly `index.html`, all lowercase. On Windows, turn on file
+> extensions first so you don't end up with `index.html.txt` by mistake.
 
 ## 🤖 AI Policy
 
