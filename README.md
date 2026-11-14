@@ -11,7 +11,7 @@ Styling comes later in the course.
 > [!NOTE]
 > `.editorconfig`, `.gitattributes`, `.gitignore`, `.noai`, and the `.github` and `.idea`
 > folders are setup files that keep assignments consistent. Leave them alone. `content.txt`
-> is your starter content.
+> and the four images are your starter content. Keep them in the repo.
 
 ## 📋 Assignment Requirements
 
@@ -48,7 +48,14 @@ Either way, when you are finished your root folder should contain:
 
 ```
 index.html
+anarchy-vs-democracy.jpg
+party.webp
+twitch-plays-pokemon-logo.png
+twitch-plays-pokemon.gif
 ```
+
+Keep everything in the root folder. The images are already there, so
+`<img src="party.webp">` just works. Don't move or rename them.
 
 > [!WARNING]
 > The file must be named exactly `index.html`, all lowercase. On Windows, turn on file

@@ -28,6 +28,7 @@ By completing this exercise, you will practice how to:
 - Mark up paragraphs, lists, and description lists
 - Use inline elements such as `strong`, `em`, `abbr`, `time`, `del`, and `ins`
 - Mark up a quotation with `blockquote` and credit its source
+- Add images with the `img` element and write useful `alt` text
 - Preview your page in a browser and check it with a validator
 
 ## 📂 Starter Files
@@ -35,6 +36,22 @@ By completing this exercise, you will practice how to:
 | File | Purpose |
 | --- | --- |
 | `content.txt` | The plain text for the page. Either **rename it to `index.html`** and add your markup, or **create a new `index.html`** and copy the text into it. |
+| `twitch-plays-pokemon-logo.png` | The Twitch Plays logo. Goes in the `header`, below the tagline. |
+| `twitch-plays-pokemon.gif` | An animation of the stream. Goes in the *How It Worked* section. |
+| `anarchy-vs-democracy.jpg` | The Anarchy and Democracy badges. Goes in the *Anarchy vs. Democracy* section. |
+| `party.webp` | The team's legendary Pokémon and their nicknames. Goes in *The Lore* section. |
+
+Inside `content.txt`, four lines mark where the images belong:
+
+```
+[replace this with the image twitch-plays-pokemon-logo.png]
+[replace this with the image twitch-plays-pokemon.gif]
+[replace this with the image anarchy-vs-democracy.jpg]
+[replace this with the image party.webp]
+```
+
+Delete each placeholder line and put an `<img>` element in its place. Keep the images in
+the root folder next to `index.html`.
 
 > [!IMPORTANT]
 > Your finished page must be named exactly **`index.html`** and live in the root folder.
@@ -95,6 +112,16 @@ They belong in the `head`. Use the first as the page's `title` and the second as
 - [ ] The chat phrase *Praise Helix* is emphasized with `em`, and at least one other
       important phrase uses `strong` where it makes sense
 
+### Images
+
+- [ ] All four placeholder lines are replaced with `img` elements, and none of the
+      `[replace this ...]` text is left on the page
+- [ ] Each `src` matches the image's file name exactly, including the extension
+      (`.png`, `.gif`, `.jpg`, `.webp`)
+- [ ] Each image has `alt` text that describes what the image shows, not just its file
+      name (for example, not `alt="party"`)
+- [ ] All four images display when you preview the page in a browser
+
 ### Quotation
 
 - [ ] The Guinness World Records title is in a `blockquote`, with its source credited
@@ -106,9 +133,10 @@ They belong in the `head`. Use the first as the page's `title` and the second as
 | --- | --- | --- |
 | **Document structure** | Correct doctype, `html` with `lang`, `head`, and `body`; `meta charset`; meaningful `title` and `meta` description; all visible content in `body`. | 2 |
 | **Page layout** | `header`, `main`, `section`, and `footer` are used for the content they describe. | 2 |
-| **Headings and paragraphs** | One `h1`; `h2`/`h3` reflect the real outline of the page; all body text is in `p` elements. | 3 |
-| **Lists** | Commands and statistics are lists; the timeline is an `ol`; Anarchy/Democracy is a `dl` with `dt` and `dd`. | 3 |
-| **Inline elements** | `abbr` with `title`, `time` with `datetime`, `del`/`ins`, `strong`, and `em` are all present and used on the content they describe. | 3 |
+| **Headings and paragraphs** | One `h1`; `h2`/`h3` reflect the real outline of the page; all body text is in `p` elements. | 2 |
+| **Lists** | Commands and statistics are lists; the timeline is an `ol`; Anarchy/Democracy is a `dl` with `dt` and `dd`. | 2 |
+| **Inline elements** | `abbr` with `title`, `time` with `datetime`, `del`/`ins`, `strong`, and `em` are all present and used on the content they describe. | 2 |
+| **Images** | All four images replace their placeholders and display on the live page; `src` paths match the file names exactly; every image has descriptive `alt` text. | 3 |
 | **Quotation** | The Guinness World Records quote is in a `blockquote` with its source in `cite`. | 1 |
 | **Published and submitted** | GitHub Pages site is live and loads correctly; pull request into `main` is open with the live URL in the description; PR URL submitted in Canvas. | 1 |
 | **Total** |  | **15** |
@@ -121,6 +149,8 @@ Check the following:
 - [ ] The browser tab shows the page title from `content.txt`
 - [ ] None of the "Page title:" or "Page description:" labels appear on the page
 - [ ] All of the text from `content.txt` appears on the page, including the footer line
+- [ ] All four images appear in the browser, and no `[replace this ...]` lines are left
+- [ ] Every image has useful `alt` text
 - [ ] Headings follow the outline of the page, with one `h1`
 - [ ] Every requirement above is checked off
 - [ ] The page passes the [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
@@ -136,6 +166,8 @@ If something is not working, check these common issues first:
 - Is the file named exactly `index.html`, with no hidden `.txt` on the end?
 - Does "Pokémon" show up as strange characters like "PokÃ©mon"? Add
   `<meta charset="utf-8">` to the `head`.
+- Is an image not showing? Check that the `src` is spelled exactly like the file name,
+  including the extension, and that the image is in the same folder as `index.html`.
 - Is your visible page content inside the `body` element?
 - Are your opening and closing tags in the correct places, and nested properly?
 - Are there quotation marks around your attribute values?
@@ -148,6 +180,7 @@ If something is not working, check these common issues first:
 - [MDN — Lists](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Lists)
 - [MDN — Advanced text features](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Advanced_text_features)
   (description lists, quotations, abbreviations, and `time`)
+- [MDN — `<img>`: The Image Embed element](https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/img)
 - [MDN — Document and website structure](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content/Structuring_documents)
 - [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input): paste your
   HTML in to catch unclosed tags
