@@ -6,6 +6,8 @@ Twitch Plays Pokémon
 
 A million players. One Game Boy game. Sixteen days of chaos.
 
+[replace this with the image twitch-plays-pokemon-logo.png]
+
 A Social Experiment
 
 In February 2014, an anonymous programmer from Australia started a stream on Twitch with a strange idea: what if the chat played the game? They called it a social experiment, and they wrote a small program that read every message in the stream's chat and turned it into a button press. Then they loaded up Pokémon Red, a role-playing game (RPG) first released in Japan in 1996, and went live.
@@ -18,6 +20,8 @@ How It Worked
 
 Anyone watching could join in by typing one of eight commands into the chat: up, down, left, right, A, B, start, or select. Every message was a button press. Picture one Game Boy being passed around to everyone on the internet at the same time, and you get the idea.
 
+[replace this with the image twitch-plays-pokemon.gif]
+
 With thousands of people typing at once, the chat moved faster than anyone could read. To make things harder, there was a delay between typing a command and seeing it happen on the stream. Even players who knew exactly where to go were always a few steps behind everyone else.
 
 Not everyone was trying to help. Trolls figured out that spamming start would open the menu over and over and stop the game in its tracks. The streamer eventually had to slow down how often the start button could be pressed, and someone even built a program to spot the worst trolls automatically.
@@ -25,6 +29,8 @@ Not everyone was trying to help. Trolls figured out that spamming start would op
 Anarchy vs. Democracy
 
 On February 18, after the crowd got badly stuck on a puzzle, the streamer changed the rules. Players could now vote on how the game was played by typing anarchy or democracy in the chat. A meter on the screen showed which side was winning.
+
+[replace this with the image anarchy-vs-democracy.jpg]
 
 Anarchy Every command happens in the order it arrives. It is fast, loud, and completely unpredictable. Somehow, it usually works.
 
@@ -35,6 +41,8 @@ Many fans hated Democracy. To them, the chaos was the whole point, and the fight
 The Lore
 
 When something makes no sense, people make up a story to explain it. The TPP crowd did exactly that. Over sixteen days, they turned the game's Pokémon and items into a full mythology of heroes, villains, and prophets.
+
+[replace this with the image party.webp]
 
 Lord Helix
 
